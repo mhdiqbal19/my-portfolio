@@ -10,21 +10,21 @@ const data = [
         image: IMG1,
         title: 'Aplikasi Monitoring Peralatan Pembangkit PT. PLN (Persero) Sektor Keramasan Palembang.',
         github: 'http://github.com/mhdiqbal19',
-        demo: 'http://github.com/'
+        demo: '#'
     },
     {
         id: 2,
         image: IMG2,
         title: 'Aplikasi Monitoring Berkas Notaris Wahyu Analista (Sukoharjo).',
         github: 'http://github.com/mhdiqbal19',
-        demo: 'http://github.com/'
+        demo: '#'
     },
     {
         id: 3,
         image: IMG3,
         title: 'Sistem Informasi Penggajian PT. SInergi Visi Utama.',
         github: 'http://github.com/',
-        demo: 'http://github.com/'
+        demo: '#/'
     }
 ]
 
@@ -46,7 +46,7 @@ const Portfolio = () => {
                                 <h3>{title}</h3>
                                 <div className="portfolio__item-cta">
                                     <a href={github} className='btn'>Github</a>
-                                    <a href={demo} target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Live Demo</a>
+                                    <a href={demo} rel="noopener noreferrer" className='btn btn-primary'>Live Demo</a>
                                 </div>
                             </article>
                         )
